@@ -1,0 +1,32 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+.panel {
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.left {
+  width: 25%;
+  background: #ffffff;
+  border-right: 1px solid #ddd;
+}
+
+.center {
+  width: 50%;
+  background: #f9fafc;
+}
+
+.right {
+  width: 25%;
+  background: #ffffff;
+  border-left: 1px solid #ddd;
+}
+
+.panel h2 {
+  margin-bottom: 12px;
+}
